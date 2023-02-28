@@ -1,0 +1,10 @@
+.analitics{
+    background-color: RGB(33, 35, 50);
+    flex: 4;
+    color: white;
+}
+
+.analiticsWidgets{
+    display: flex;
+    margin: 20px;
+}

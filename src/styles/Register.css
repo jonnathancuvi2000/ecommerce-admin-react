@@ -1,0 +1,124 @@
+.register-container {
+    /* background-color: red; */
+    /* background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("../img/background-register.jpeg") center; */
+    background: linear-gradient(rgba(33, 35, 50, 0.8), rgba(33, 35, 50, 0.8)), url("../img/background-login.jpeg") center;
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.register-wrapper {
+    /* background-color: red; */
+    background: linear-gradient(rgba(33, 35, 50, 0.5), rgba(33, 35, 50, 0.5));
+    width: 40%;
+    padding: 20px;
+    border-radius: 30px;
+    /* box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border-radius: 30px; */
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(255, 255, 255, 0.75);
+    box-shadow: 0px 0px 15px -10px rgba(255, 255, 255, 0.75);
+}
+
+.register-title{
+    color: white;
+}
+
+.register-title {
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.register-subtitle{
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+    /* color: rgb(60, 60, 60); */
+    color: white;
+}
+
+.register-form {
+    display: flex;
+    flex-direction: column;
+}
+.data-user{
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.register-input-div {
+    /* flex: 1; this was before I removed it */
+    width: 48%;
+    /* background-color: red; */
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.icon-register {
+    color: #ccc;
+    width: 12%;
+    position: relative;
+    top: 33px;
+    left: 10px;
+}
+
+.register-input {
+    height: 45px;
+    /* min-width: 40%; */
+    /* con este width deborda  el icono */
+    /* width: 87%;  */
+    border: none;
+    border-radius: 30px;
+    border-bottom: 1px solid white;
+    padding: 0 0 0 45px;
+    /* background: rgba(255, 255, 255, 0.1); */
+    border: 1px solid white;
+    font-size: 15px;
+    /* background: linear-gradient(rgba(33, 35, 50, 0.5), rgba(33, 35, 50, 0.5)); */
+    background: transparent;
+    color: white;
+}
+
+.register-input:focus {
+    outline: none;
+    border: 1px solid rgb(67, 67, 247);
+}
+
+.register-btn {
+    width: 100%;
+    border: none;
+    height: 45px;
+    background-color: rgb(67, 67, 247);
+    color: white;
+    cursor: pointer;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    border-radius: 30px;
+    width: 100%;
+    /* background: rgba(255, 255, 255, 0.7); */
+    font-size: 15px;
+}
+
+.Error-Register{
+    text-align: center;
+    color: red;
+}
+
+.register-link{
+    text-align: center;
+    margin: 5px 0px;
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: 15px;
+    /* color: black; */
+    color: white;
+    text-decoration: none;
+}

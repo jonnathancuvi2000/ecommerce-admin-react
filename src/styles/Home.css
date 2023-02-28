@@ -1,0 +1,10 @@
+.home{
+    background-color: RGB(33, 35, 50);
+    flex: 4;
+    color: white;
+}
+
+.homeWidgets{
+    display: flex;
+    margin: 20px;
+}
